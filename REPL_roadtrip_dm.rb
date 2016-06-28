@@ -13,7 +13,7 @@ begin
   when 'yes'
     puts "Great! Where will we go first?"
     puts "a: San Diego"
-    puts "b: Arizona"
+    puts "b: Hawaii"
     puts "c: New Mexico"
     destination = gets.chomp
     if (stops.include? destination["a"])
@@ -25,7 +25,7 @@ begin
       if (san_diego_do.include? destination["a"] )
         puts "Good choice, they're the best in The West!"
         puts "Where to next?"
-        puts "b: Arizona"
+        puts "b: Hawaii"
         puts "c: New Mexico"
         destination = gets.chomp
           if (stops.include? destination["b"])
@@ -52,7 +52,7 @@ begin
       else (san_diego_do.include? destination["c"])
         puts "So typical. You should have gone to the world famous zoo."
         puts "Where to next?"
-        puts "b: Arizona"
+        puts "b: Hawaii"
         puts "c: New Mexico"
         destination = gets.chomp
           if (stops.include? destination["b"])
@@ -86,7 +86,7 @@ begin
         puts "It was a hot and sweaty night, but you're still alive."
         puts "Where to next?"
         puts "a: San Diego"
-        puts "b: Arizona"
+        puts "b: Hawaii"
         destination = gets.chomp
         if (stops.include? destination["a"])
           puts "America's Finest City! Would you rather..."
@@ -118,7 +118,7 @@ begin
   when 'maybe'
     puts "I'll take that as a yes. Where should we start?"
     puts "a: San Diego"
-    puts "b: Arizona"
+    puts "b: Hawaii"
     puts "c: New Mexico"
     destination = gets.chomp
     if (stops.include? destination["a"])
@@ -157,7 +157,7 @@ begin
   when 'no'
     puts "That's too bad because we already left. What's our first stop?"
     puts "a: San Diego"
-    puts "b: Arizona"
+    puts "b: Hawaii"
     puts "c: New Mexico"
     destination = gets.chomp
     if (stops.include? destination["a"])
@@ -175,7 +175,7 @@ begin
         puts "So typical. You should have gone to the world famous zoo."
       end
     elsif (stops.include? destination["b"])
-      puts "Whyyyyyy??!!...it's hot as hell in Arizona!"
+      puts "Whyyyyyy??!!...it's hot as hell in Hawaii!"
       puts "Lets try this again."
     elsif (stops.include? destination["c"])
       puts "Money is tight, do you..."
